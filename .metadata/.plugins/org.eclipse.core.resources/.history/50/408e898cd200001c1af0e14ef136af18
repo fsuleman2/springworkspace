@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- bean definitions here -->
+	<!-- we can multiple objects for player just change the id name -->
+	<bean id="p" class="com.revature.model.Player">
+		<property name="playerJerseyNo" value="12"></property>
+		<property name="playerName" value="siraj"></property>
+		<property name="teamName" value="India"></property>
+	</bean>
+	<bean id="p1" class="com.revature.model.Player">
+		<constructor-arg name="playerJerseyNo" value="7"></constructor-arg>
+		<constructor-arg name="playerName" value="Virat"></constructor-arg>
+		<constructor-arg name="teamName" value="India"></constructor-arg>
+	</bean>
+	<bean id="teamObjFromSpringXml" class="com.revature.model.Team"></bean>
+</beans>

@@ -1,0 +1,9 @@
+package com.revature.model;
+
+public class Accounts {
+private int accountId=101;
+private String accountName="Suleman";
+public void showAccounts() {
+	System.out.println("Sales Details");
+}
+}

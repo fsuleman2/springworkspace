@@ -1,0 +1,21 @@
+package com.revature.model;
+
+public class Accounts {
+private Sales salesSetterObject;
+
+public Sales getSalesSetterObject() {
+	return salesSetterObject;
+}
+
+public void setSalesSetterObject(Sales salesSetterObject) {
+	this.salesSetterObject = salesSetterObject;
+}
+
+public void showAccounts() {
+	salesSetterObject.getSales();
+	System.out.println("Sales Details");
+	
+}
+
+
+}

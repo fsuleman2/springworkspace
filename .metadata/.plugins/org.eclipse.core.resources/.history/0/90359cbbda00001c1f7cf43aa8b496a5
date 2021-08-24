@@ -1,0 +1,10 @@
+package com.studentapp.model;
+
+public class Student {
+	private sName= "Suleman";
+	private sId = "101";
+private Department deptConstructorObj;
+public void dispDeptDetails() {
+	
+}
+}

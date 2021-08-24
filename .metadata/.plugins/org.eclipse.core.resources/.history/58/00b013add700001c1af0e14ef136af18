@@ -1,0 +1,11 @@
+package com.revature.model;
+
+public class Accounts {
+
+public void showAccounts() {
+	System.out.println("Sales Details");
+	
+}
+
+
+}

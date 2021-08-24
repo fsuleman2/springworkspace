@@ -1,0 +1,10 @@
+package com.revature.model;
+
+public class Sales {
+private int salesId;
+private String salesTeam;
+
+public void getSales() {
+	System.out.println("Sales ID: "+salesId);
+	System.out.println("Sales Team Name: "+salesTeam);
+}
